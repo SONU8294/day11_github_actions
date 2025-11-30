@@ -1,5 +1,5 @@
 
-Day 11 – GitHub Actions CI Pipeline
+# Day 11 – GitHub Actions CI Pipeline
 
 This project demonstrates a simple CI/CD pipeline using GitHub Actions.
 Whenever new code is pushed to the repository, an automated workflow runs to:
@@ -14,13 +14,13 @@ Run the Python script (app.py)
 
 Show the output in GitHub Actions logs
 
-✅ CI Status Badge
+# ✅ CI Status Badge
 
-(This will automatically turn green ✔ after a successful pipeline run)
+
 
 ![CI Status](https://github.com/SONU8294/day11_github_actions/actions/workflows/python-ci.yml/badge.svg)
 
-📁 Project Structure
+# 📁 Project Structure
 day11_github_actions/
 │
 ├── app.py
@@ -28,7 +28,7 @@ day11_github_actions/
     └── workflows/
         └── python-ci.yml
 
-🧪 What This Pipeline Does
+# 🧪 What This Pipeline Does
 
 The GitHub Actions workflow:
 
@@ -41,10 +41,10 @@ python app.py
 
 This ensures your code works before merging or deploying.
 
-🐍 Python Script (app.py)
+# 🐍 Python Script (app.py)
 print("Hello CI/CD")
 
-🔁 GitHub Actions Workflow (python-ci.yml)
+# 🔁 GitHub Actions Workflow (python-ci.yml)
 name: Python CI
 
 on:
@@ -68,7 +68,7 @@ jobs:
     - name: Run Python Script
       run: python app.py
 
-🚀 How to Use
+# 🚀 How to Use
 
 Clone the repository
 
